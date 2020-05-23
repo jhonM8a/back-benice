@@ -1,6 +1,5 @@
 package com.beteam.benice.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,7 +15,7 @@ public class User {
 	@PostMapping("/user/auth")
 	public UserResponse authUser(@RequestBody UserAuthRequest user) {
 		UserResponse response = new UserResponse();
-		response.setName("Jhon ochoa");
+		response.setName(user.getUser());
 		response.setLocation(user.getPassword()+user.getUser());
 		return response;
 	}
