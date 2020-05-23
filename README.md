@@ -1,6 +1,6 @@
 # Back-Benice
 Este es el back en Java. Ya esta desplegado una aplicación con un servicio dummy y con un servicio prueba:
-1.  https://heroku-benice.herokuapp.com/ -> hola mundo en texto plano
+1.  https://heroku-benice.herokuapp.com/ -> hola mundo en texto plano(Se puede ver en el navegador)
 2.  https://heroku-benice.herokuapp.com/benice/v1/user/auth/ -> POST con body:
     ```javascript
     { "user": "nombre usuario", "password": "Cualquier cosa"}
