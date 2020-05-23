@@ -5,7 +5,8 @@ Este es el back en Java. Ya esta desplegado una aplicación con un servicio dumm
     ```javascript
     { "user": "nombre usuario", "password": "Cualquier cosa"}
     ```
-    Devuelve una respuesta con formato JSON
+    Este devolvera una respuesta en formaro JSON, se pueda usar 
+    [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) o cualquier otra herramienta similar       para consumir el servicio
     
 ## Despliegue 
 
