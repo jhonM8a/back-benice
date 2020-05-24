@@ -25,9 +25,9 @@ public class DataBaseConfiguration {
 	public DataSource dataSource(){
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("org.postgresql.Driver");
-		dataSource.setUrl("jdbc:postgresql://192.168.99.100:5432/testbenice");
-		dataSource.setUsername("postgres");
-		dataSource.setPassword("1106");
+		dataSource.setUrl("jdbc:postgresql://ec2-52-87-135-240.compute-1.amazonaws.com:5432/dcf27g4bha52lv ");
+		dataSource.setUsername("mqtiuqwndthbqz");
+		dataSource.setPassword("40fd7ab7286370bb85975ba8d36aba5790024cfb42ca2d0cf4c5427b05ed4697");
 		
 		return dataSource;
 	}
