@@ -6,5 +6,5 @@ import com.beteam.benice.domain.Cliente;
 
 public interface ClienteDao {
 
-	List<Cliente> findAllTeachers();
+	List<Cliente> findAllClientes();
 }
