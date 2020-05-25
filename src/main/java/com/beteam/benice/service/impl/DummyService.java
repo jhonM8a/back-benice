@@ -1,4 +1,4 @@
-package com.beteam.benice.service;
+package com.beteam.benice.service.impl;
 
 import java.util.List;
 
@@ -15,6 +15,6 @@ public class DummyService {
 	private ClienteDao clienteDao;
 	
 	public List<Cliente> findAll(){
-		return clienteDao.findAllTeachers();
+		return clienteDao.findAllClientes();
 	}
 }

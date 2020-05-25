@@ -11,7 +11,7 @@ import com.beteam.benice.domain.Cliente;
 public class ClienteDaoImpl extends AbstractSession implements ClienteDao{
 
 	@Override
-	public List<Cliente> findAllTeachers() {
+	public List<Cliente> findAllClientes() {
 		// TODO Auto-generated method stub
 		return getSession().createQuery("from Cliente").list();
 	}

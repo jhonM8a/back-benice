@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.beteam.benice.domain.Cliente;
-import com.beteam.benice.service.DummyService;
+import com.beteam.benice.service.impl.DummyService;
 
 @RestController
 public class Dummy {
